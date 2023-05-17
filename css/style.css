@@ -1,0 +1,117 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    font-weight: 800;
+    color: #08417c;
+    font-size: 2.3rem;
+}
+
+.row .main{
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #2bb2e6;
+    border-radius: 25px;
+}
+
+img{
+    width: 200px;
+    margin-bottom: -8px;
+}
+
+h2{
+    font-weight: 700;
+    color:#002a38;
+}
+
+
+ul li{
+    padding: 0 1rem ;
+    color:#113b79;
+}
+
+.row div.section2{
+    background-color: #e7fafe;
+    border-radius: 6px;
+}
+
+.row div.section3{
+    background-color: #efeff7;
+}
+
+.icons i , .icons span{
+    color: #113b79;
+}
+i{
+    padding-right: 2px;
+}
+
+.skill{
+    display: flex;
+    align-items: center;
+    padding: 2px 0;
+    padding-right: 10px;
+}
+
+.skill span{
+    width: 30%;
+}
+.skill .progress{
+    width: 70%;
+}
+
+hr{
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.my-skill{
+    color: #113b79;
+}
+
+.progress, .progress-stacked{
+    --bs-progress-bg: #dfdfdf;
+}
+
+.fav{
+    padding: 15px;
+    margin: 6px auto;
+    color: #113b79;
+    border-radius: 25px;
+    background-color: #cedae6;
+}
+
+.content{
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+}
+
+.content>div{
+    border-radius: 25px;
+    background-color: #cedae6;
+    margin: 5px;
+
+}
+
+.progress-bar {
+    background-color: #2bb2e6;
+}
+
+.social a{
+    text-decoration: none;
+    color: #2bb2e6;
+    transition: .4s;
+}
+.social .row >div:hover,
+.social .row >div:hover a{
+    color: #113b79;
+}
+
+
+.intro>p{
+    display: flex;
+}
+.intro>p span{
+    padding-right: 2.5rem;
+}
