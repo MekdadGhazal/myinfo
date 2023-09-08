@@ -116,3 +116,10 @@ hr{
 .intro>p span{
     padding-right: 2.5rem;
 }
+
+.social-media
+{
+        display: flex;
+    align-items: center;
+    justify-content: center;
+}
